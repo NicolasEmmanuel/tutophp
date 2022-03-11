@@ -44,7 +44,7 @@
 
 
         public function resultat(){
-            //"this" fonction pour atteindre les variables
+            //"$this" est la valeur de l'objet appelant.
             echo $this->nombre." "
                  .$this->operateur." "
                  .$this->operande."="
